@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "John Smith"
+title                    : "Junteng Liu"
 title_separator          : "-"
-name                     : &name "John Smith"
-description              : &description "A LLM Researcher"
-url                      : https://mcptest-user.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mcptest-user/My-Homepage"
+name                     : &name "Junteng Liu"
+description              : &description "First-year Ph.D. candidate in Computer Science at HKUST, working on natural language processing and machine learning"
+url                      : https://gunsmithwrath.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "/My-Homepage" # the subpath of your site, e.g. "/blog"
+repository               : "GunsmithWrath/My-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,18 +23,18 @@ repository               : "mcptest-user/My-Homepage"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "John Smith"
+  name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
-  bio              : "LLM Researcher"
-  location         : "Earth"
-  employer         : "University"
+  bio              : "First-year Ph.D. candidate at the HKUST NLP Group. My research focuses on natural language processing and machine learning."
+  location         : "Hong Kong"
+  employer         : "Hong Kong University of Science and Technology"
   uri              : # URL
-  email            : "john.smith@university.edu"
+  email            : "jliugi@connect.ust.hk"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
   impactstory      : # URL
   orcid            : 
   semantic         : # URL
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "mcptest-user" # Username - Update with your username on the site
+  github           : "Vicent0205" # Username - Update with your username on the site
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -69,7 +69,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "junteng88716710" # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -82,7 +82,7 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles and Preprints'    
   conferences:
     title: 'Conference Papers'
 
@@ -118,7 +118,7 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-millisecond"
 atom_feed:
   hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
@@ -133,7 +133,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "junteng88716710"
 facebook:
   username               :
   app_id                 :
